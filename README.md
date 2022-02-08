@@ -54,7 +54,7 @@ Installation & Usage
 **Using GIT** *recommended*
 Firstly clone this repository
 ```git
-git clone https://github.com/wedoitstuff/ums-lite.git
+git clone https://github.com/wedoitstuff/UMS-LITE.git
 ```
 
 Now use composer (This will install all the dependencies (vendor folder) - )

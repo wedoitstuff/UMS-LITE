@@ -57,6 +57,7 @@ Firstly clone this repository
 git clone https://github.com/wedoitstuff/UMS-LITE.git
 ```
 
+
 Now use composer (This will install all the dependencies (vendor folder) - )
 
 ```composer

@@ -11,7 +11,7 @@ application/config/config.live.php
 public/uploads/
 !public/uploads/.htaccess
 !public/uploads/index.html
-public/avatars/
+public/avatars/*
 !public/avatars/.htaccess
 !public/avatars/index.html
 .env

@@ -1,0 +1,1411 @@
+[14-Jan-2022 17:45:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:5) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/admin/siteSettings.php on line 24
+[14-Jan-2022 17:47:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php:5) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/admin/siteSettings.php on line 24
+[14-Jan-2022 23:48:55 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 140
+[14-Jan-2022 23:48:55 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 174
+[15-Jan-2022 00:30:55 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ';' or ',' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 47
+[15-Jan-2022 00:46:08 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 129
+[15-Jan-2022 00:46:08 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 163
+[15-Jan-2022 00:52:01 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 129
+[15-Jan-2022 00:52:01 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 163
+[15-Jan-2022 01:00:53 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 129
+[15-Jan-2022 01:00:53 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 163
+[15-Jan-2022 01:00:53 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 129
+[15-Jan-2022 01:00:53 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 163
+[15-Jan-2022 01:01:37 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 129
+[15-Jan-2022 01:01:37 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 163
+[15-Jan-2022 01:01:37 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 129
+[15-Jan-2022 01:01:37 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 163
+[15-Jan-2022 02:28:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function inclue() in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/core.php:64
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php(292): getCompanyName('3')
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require('/home/dev/publi...')
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/DashboardController.php(29): View->render('dashboard/index', Array)
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): DashboardController->index()
+#4 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#5 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/core.php on line 64
+[15-Jan-2022 13:35:04 UTC] PHP Notice:  Undefined variable: response in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/dashboard/index.php on line 21
+[15-Jan-2022 23:04:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/register/verify.php:16
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(71): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/RegisterController.php(56): View->renderWithoutHeaderAndFooter('register/verify')
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(44): RegisterController->verify('4', 'c761c9f58cb8d77...')
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/register/verify.php on line 16
+[15-Jan-2022 23:06:20 UTC] PHP Fatal error:  Cannot redeclare checkInstallation() (previously declared in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/installation_check.php:3) in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/installation_check.php on line 2
+[15-Jan-2022 23:06:35 UTC] PHP Fatal error:  Cannot redeclare checkInstallation() (previously declared in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/installation_check.php:3) in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/installation_check.php on line 2
+[15-Jan-2022 23:07:46 UTC] PHP Fatal error:  Cannot redeclare getSiteDetails() (previously declared in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/core.php:2) in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/core.php on line 2
+[15-Jan-2022 23:07:55 UTC] PHP Fatal error:  Cannot redeclare getSiteDetails() (previously declared in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/core.php:2) in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/vendor/function_files/core.php on line 2
+[16-Jan-2022 18:46:39 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 18:46:40 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:03:04 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:03:04 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:03:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php:36) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/admin/siteSettings.php on line 24
+[16-Jan-2022 19:06:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/error/404.php:2
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(71): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/ErrorController.php(26): View->renderWithoutHeaderAndFooter('error/404')
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(53): ErrorController->error404()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/error/404.php on line 2
+[16-Jan-2022 19:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/error/404.php:2
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(71): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/ErrorController.php(26): View->renderWithoutHeaderAndFooter('error/404')
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(53): ErrorController->error404()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/error/404.php on line 2
+[16-Jan-2022 19:09:41 UTC] PHP Fatal error:  Cannot declare class ErrorController, because the name is already in use in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/ErrorController.php on line 8
+[16-Jan-2022 19:26:15 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:26:15 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:35:50 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:35:50 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:45:35 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:45:35 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:45:45 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:45:45 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:45:56 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:45:56 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:46:04 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:46:04 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:48:01 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:48:01 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:48:04 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:48:04 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:48:07 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:48:07 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:48:13 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:48:13 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:48:18 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:48:18 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:48:58 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:48:58 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:50:09 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:50:09 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:50:57 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:50:57 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:51:01 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:51:01 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:51:36 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:51:36 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 19:51:41 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 19:51:41 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[16-Jan-2022 20:00:15 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[16-Jan-2022 20:00:15 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[22-Jan-2022 21:27:00 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 8
+[22-Jan-2022 21:27:50 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 39
+[22-Jan-2022 21:27:50 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 39
+[22-Jan-2022 21:27:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:39) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:28:43 UTC] PHP Notice:  Undefined variable: filePath in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 34
+[22-Jan-2022 21:28:43 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 34
+[22-Jan-2022 21:28:43 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 34
+[22-Jan-2022 21:28:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:34) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:29:34 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 34
+[22-Jan-2022 21:29:34 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 34
+[22-Jan-2022 21:29:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:34) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:29:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 35
+[22-Jan-2022 21:29:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 35
+[22-Jan-2022 21:29:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:35) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:30:14 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 33
+[22-Jan-2022 21:30:14 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 33
+[22-Jan-2022 21:30:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:33) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:30:28 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:30:28 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:30:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:32) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:30:42 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:30:42 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:30:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:32) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:32:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:32:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:32:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:32) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[22-Jan-2022 21:33:46 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:33:46 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php on line 32
+[22-Jan-2022 21:33:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/SettingsModel.php:32) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[23-Jan-2022 12:08:18 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 160
+[23-Jan-2022 12:08:18 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 194
+[23-Jan-2022 16:01:57 UTC] PHP Notice:  Undefined property: View::$user_account_level in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/wdis/_templates/header.php on line 223
+[23-Jan-2022 16:15:22 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 82
+[23-Jan-2022 16:15:58 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 82
+[23-Jan-2022 16:16:48 UTC] PHP Notice:  Undefined variable: companyProfile in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 103
+[23-Jan-2022 16:16:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 103
+[23-Jan-2022 16:31:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function AdminModel::updateSiteSettings(), 5 passed in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53 and exactly 6 expected in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:96
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(53): AdminModel::updateSiteSettings('Cloud Managemen...', 'info@emailaddre...', 'bg-white navbar...', 'sidenav-dark', '1.0.0 build 1')
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->updateSiteSettings()
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#3 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 96
+[23-Jan-2022 16:38:43 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:38:43 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:45:38 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:45:38 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:48:16 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:48:16 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:48:22 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:48:22 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 122
+[23-Jan-2022 16:50:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 62
+[23-Jan-2022 17:06:33 UTC] PHP Notice:  Undefined variable: conn in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 68
+[23-Jan-2022 17:06:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 68
+[23-Jan-2022 17:06:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 69
+[23-Jan-2022 17:06:33 UTC] PHP Notice:  Undefined variable: query in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 72
+[23-Jan-2022 17:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php:72
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php(26): Request::siteLogo('filePathLight')
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require('/home/dev/publi...')
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(48): View->render('admin/siteSetti...', Array)
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->siteSettings()
+#4 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#5 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 72
+[23-Jan-2022 17:06:49 UTC] PHP Notice:  Undefined variable: query in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 69
+[23-Jan-2022 17:06:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php:69
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php(26): Request::siteLogo('filePathLight')
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require('/home/dev/publi...')
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(48): View->render('admin/siteSetti...', Array)
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->siteSettings()
+#4 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#5 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 69
+[23-Jan-2022 17:13:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/footer.php:10
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(26): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/UserController.php(31): View->render('user/index', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): UserController->index()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/footer.php on line 10
+[23-Jan-2022 17:15:07 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 35
+[23-Jan-2022 17:15:07 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 40
+[23-Jan-2022 17:15:21 UTC] PHP Warning:  include(vendor/init.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 2
+[23-Jan-2022 17:15:21 UTC] PHP Warning:  include(): Failed opening 'vendor/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 2
+[23-Jan-2022 17:15:21 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 35
+[23-Jan-2022 17:15:21 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 40
+[23-Jan-2022 17:15:37 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 34
+[23-Jan-2022 17:15:37 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 39
+[23-Jan-2022 17:16:41 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 34
+[23-Jan-2022 17:16:41 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 39
+[23-Jan-2022 17:20:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 174
+[24-Jan-2022 14:46:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/admin/siteSettings.php:64
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(25): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(48): View->render('admin/siteSetti...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->siteSettings()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/admin/siteSettings.php on line 64
+[24-Jan-2022 16:35:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ',' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Config.php on line 9
+[24-Jan-2022 16:35:31 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ',' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Config.php on line 9
+[24-Jan-2022 20:24:22 UTC] PHP Notice:  Undefined index: fileToUpload in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53
+[24-Jan-2022 20:24:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53
+[24-Jan-2022 20:24:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php:53) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:25:17 UTC] PHP Notice:  Undefined index: filePath in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53
+[24-Jan-2022 20:25:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53
+[24-Jan-2022 20:25:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php:53) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:25:40 UTC] PHP Notice:  Undefined index: filePath in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53
+[24-Jan-2022 20:25:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 53
+[24-Jan-2022 20:25:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php:53) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:28:01 UTC] PHP Notice:  Undefined index: filePath in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 103
+[24-Jan-2022 20:28:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 103
+[24-Jan-2022 20:28:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:103) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:28:16 UTC] PHP Notice:  Undefined index: filePath in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 103
+[24-Jan-2022 20:28:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 103
+[24-Jan-2022 20:28:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:103) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:28:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:127) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:38:41 UTC] PHP Notice:  Undefined index: fileToUpload in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 109
+[24-Jan-2022 20:38:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 109
+[24-Jan-2022 20:38:41 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 109
+[24-Jan-2022 20:38:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:109) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:38:56 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 109
+[24-Jan-2022 20:38:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:109) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:39:28 UTC] PHP Notice:  Undefined variable: imageFileType in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 120
+[24-Jan-2022 20:39:28 UTC] PHP Notice:  Undefined variable: imageFileType in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 120
+[24-Jan-2022 20:39:28 UTC] PHP Notice:  Undefined variable: imageFileType in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 120
+[24-Jan-2022 20:39:28 UTC] PHP Notice:  Undefined variable: imageFileType in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 120
+[24-Jan-2022 20:39:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:120) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:39:47 UTC] PHP Warning:  move_uploaded_file(../../public/uploads/241380259_405437591144719_579816942141939185_n.jpg): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 125
+[24-Jan-2022 20:39:47 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpF0E7xZ' to '../../public/uploads/241380259_405437591144719_579816942141939185_n.jpg' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 125
+[24-Jan-2022 20:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:125) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:40:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:152) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:42:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:154) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:42:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:154) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:42:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:154) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:43:22 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 112
+[24-Jan-2022 20:43:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:112) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:44:39 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 113
+[24-Jan-2022 20:44:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:113) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:46:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 113
+[24-Jan-2022 20:46:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:113) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:46:29 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 114
+[24-Jan-2022 20:46:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:114) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:46:37 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 114
+[24-Jan-2022 20:46:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php:106) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Redirect.php on line 44
+[24-Jan-2022 20:49:45 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/model/AdminModel.php on line 104
+[24-Jan-2022 21:29:49 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 32
+[24-Jan-2022 21:29:49 UTC] PHP Notice:  Undefined property: View::$user_gravatar_image_url in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 37
+[24-Jan-2022 21:44:36 UTC] PHP Notice:  Undefined property: View::$user_avatar_link in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 32
+[24-Jan-2022 21:44:36 UTC] PHP Notice:  Undefined property: View::$user_avatar_link in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 37
+[24-Jan-2022 22:01:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/custom.php on line 18
+[24-Jan-2022 22:01:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/custom.php on line 18
+[24-Jan-2022 22:02:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/custom.php on line 18
+[24-Jan-2022 22:06:16 UTC] PHP Notice:  Array to string conversion in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/admin/configuration.php on line 32
+[24-Jan-2022 22:14:36 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 22:21:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/admin/configuration.php on line 32
+[24-Jan-2022 22:52:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/admin/configuration.php on line 33
+[24-Jan-2022 22:54:57 UTC] PHP Warning:  fwrite() expects at least 2 parameters, 1 given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 80
+[24-Jan-2022 22:56:13 UTC] PHP Warning:  fopen(/wdis-cloud-mgmt/public/file.txt): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 76
+[24-Jan-2022 22:56:13 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 80
+[24-Jan-2022 23:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminController::dump() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php:81
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->updateConfiguration()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#2 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 81
+[24-Jan-2022 23:07:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 82
+[24-Jan-2022 23:07:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 83
+[24-Jan-2022 23:07:45 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:07:45 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:08:15 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:08:15 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:09:42 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:09:42 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:09:55 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:09:55 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:10:03 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:10:03 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:10:09 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:10:09 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:10:21 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:10:21 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:01 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:01 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:51 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:51 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:53 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:53 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:54 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:11:54 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:05 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:05 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:06 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:06 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:16 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:16 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:24 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:24 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:33 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:12:33 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:17:07 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:17:20 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:17:43 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:18:09 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:19:47 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:20:39 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:20:41 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:21:15 UTC] PHP Warning:  require(ErrorController.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:21:15 UTC] PHP Fatal error:  require(): Failed opening required 'ErrorController.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php on line 57
+[24-Jan-2022 23:21:22 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:21:23 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:21:24 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:23:12 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:23:19 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:23:39 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:23:44 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:23:48 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:24:00 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:24:11 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:25:17 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:26:16 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:26:51 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:27:15 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:27:23 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:27:33 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:29:54 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 82
+[24-Jan-2022 23:30:17 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 33
+[24-Jan-2022 23:30:17 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 38
+[24-Jan-2022 23:32:40 UTC] PHP Warning:  fopen(../../application/config/config.sample.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 76
+[24-Jan-2022 23:32:40 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php on line 78
+[24-Jan-2022 23:42:55 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:42:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:42:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:42:55 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:42:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:43:18 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:43:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:43:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:43:53 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:43:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:53 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:43:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:43:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 33
+[24-Jan-2022 23:44:48 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 31
+[24-Jan-2022 23:44:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:44:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:44:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:44:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:45:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:45:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:45:08 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:45:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:45:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:45:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:45:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:45:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:45:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:45:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:45:39 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:45:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:46:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:46:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 18
+[24-Jan-2022 23:46:12 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Session.php on line 66
+[24-Jan-2022 23:46:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php:1) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Auth.php on line 60
+[24-Jan-2022 23:53:47 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 33
+[24-Jan-2022 23:53:47 UTC] PHP Notice:  Undefined property: View::$user_avatar_file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/modern/_templates/header.php on line 38
+[25-Jan-2022 00:05:38 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 29
+[25-Jan-2022 00:12:44 UTC] PHP Warning:  include(vendor/init.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 2
+[25-Jan-2022 00:12:44 UTC] PHP Warning:  include(): Failed opening 'vendor/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 2
+[25-Jan-2022 00:12:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:14
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(70): View->render('admin/configura...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->configuration()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 14
+[25-Jan-2022 00:13:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:13
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(70): View->render('admin/configura...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->configuration()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 13
+[25-Jan-2022 00:13:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getSiteDetails() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:13
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(70): View->render('admin/configura...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->configuration()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 13
+[25-Jan-2022 00:13:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function siteLogo() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:20
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(70): View->render('admin/configura...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->configuration()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 20
+[25-Jan-2022 00:14:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getUserFullName() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:209
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(70): View->render('admin/configura...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->configuration()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 209
+[25-Jan-2022 00:14:38 UTC] PHP Parse error:  syntax error, unexpected '40' (T_LNUMBER) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 78
+[25-Jan-2022 00:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getUserFullName() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php:209
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php(24): require()
+#1 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/controller/AdminController.php(70): View->render('admin/configura...', Array)
+#2 /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Application.php(47): AdminController->configuration()
+#3 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(17): Application->__construct()
+#4 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/_templates/header.php on line 209
+[25-Jan-2022 00:15:23 UTC] PHP Warning:  require(/home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/admin/configuration.php): failed to open stream: No such file or directory in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php on line 25
+[25-Jan-2022 00:15:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/dev/public_html/wcm/wdis-cloud-mgmt/application/view/classic/admin/configuration.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/View.php on line 25
+[25-Jan-2022 10:02:52 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/config/config.live.php on line 118
+[27-Jan-2022 20:09:14 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:09:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:10:59 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:10:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:18 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:31 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:33 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:57 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:11:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:12:17 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:12:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:13:29 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:13:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:15:36 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:15:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:16:15 UTC] PHP Notice:  Undefined variable: _PHP in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:16:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/installation/index.php on line 19
+[27-Jan-2022 20:19:50 UTC] PHP Fatal error:  Uncaught Error: Call to private Build::__construct() from invalid context in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php on line 18
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:29:37 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:32:53 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:34:19 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 9
+[27-Jan-2022 20:36:01 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 13
+[27-Jan-2022 20:36:22 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 13
+[27-Jan-2022 20:36:27 UTC] PHP Warning:  file_put_contents(&lt;?php
+/*
+================================================================================
+This file was automatically created during the installtion process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    1. Set the in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 13
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:34 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:42:45 UTC] PHP Notice:  Undefined variable: template in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 8
+[27-Jan-2022 20:46:24 UTC] PHP Parse error:  syntax error, unexpected '$writeToConfig' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 15
+[27-Jan-2022 20:49:34 UTC] PHP Parse error:  syntax error, unexpected '$writeToConfig' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 15
+[27-Jan-2022 21:53:01 UTC] PHP Warning:  Illegal string offset 'siteName' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 23
+[27-Jan-2022 21:53:01 UTC] PHP Warning:  Illegal string offset 'siteEmail' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 24
+[27-Jan-2022 21:53:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 26
+[27-Jan-2022 21:53:01 UTC] PHP Notice:  Undefined variable: conn in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 32
+[27-Jan-2022 21:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php:32
+Stack trace:
+#0 /home/dev/public_html/wcm/wdis-cloud-mgmt/public/index.php(18): Build->__construct()
+#1 {main}
+  thrown in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 32
+[27-Jan-2022 21:54:35 UTC] PHP Warning:  Illegal string offset 'siteName' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 30
+[27-Jan-2022 21:54:35 UTC] PHP Warning:  Illegal string offset 'siteEmail' in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 31
+[27-Jan-2022 21:54:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 33
+[27-Jan-2022 22:00:48 UTC] PHP Notice:  Undefined variable: OvprunjvKOOhM1h9bzMPs in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 46
+[27-Jan-2022 22:00:48 UTC] PHP Notice:  Undefined variable: siteName in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 65
+[27-Jan-2022 22:00:48 UTC] PHP Notice:  Undefined variable: siteEmail in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 65
+[27-Jan-2022 22:02:07 UTC] PHP Notice:  Undefined variable: OvprunjvKOOhM1h9bzMPs in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 47
+[27-Jan-2022 22:02:07 UTC] PHP Notice:  Undefined variable: siteName in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 66
+[27-Jan-2022 22:02:07 UTC] PHP Notice:  Undefined variable: siteEmail in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 66
+[27-Jan-2022 22:02:34 UTC] PHP Notice:  Undefined variable: OvprunjvKOOhM1h9bzMPs in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 48
+[27-Jan-2022 22:18:08 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dev_prod_test.settings' doesn't exist in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 96
+[27-Jan-2022 22:18:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 99
+[27-Jan-2022 22:18:08 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dev_prod_test.settings' doesn't exist in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 96
+[27-Jan-2022 22:18:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 99
+[27-Jan-2022 22:18:08 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dev_prod_test.settings' doesn't exist in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 96
+[27-Jan-2022 22:18:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Request.php on line 99
+[27-Jan-2022 22:23:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'dev_prod_test'@'localhost' (using password: YES) in /home/dev/public_html/wcm/wdis-cloud-mgmt/application/core/Build.php on line 78

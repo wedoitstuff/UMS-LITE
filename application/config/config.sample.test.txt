@@ -1,0 +1,179 @@
+<?php
+/*
+================================================================================
+This file was automatically created during the installation process of your
+software - any settings made here will affect the site immediately.
+
+For the best results create a backup of this file for easy recovery.
+
+*****************
+TABLE OF CONTENTS:
+*****************
+1.  Set Theme
+2.  Set Server URL
+3.  Set paths for your views / avatars / controller locations
+4.  Database Settings
+5.  Cookie Settings
+6.  Gravatar Settings
+7.  Encryption Settings
+8.  Mail Provider
+9.  SMTP Details
+10. Mailgun Details
+11. Email Content Settings
+
+
+You can call any value from the array with: Config::get('array_key')
+e.g. Config::get('URL') will display the URL (assigned in section 2)
+================================================================================
+*/
+ini_set('session.cookie_httponly', 1);
+return array(
+    /*
+    ============================================================================
+    VERSION: Critical - The software will not work without this
+    ============================================================================
+    */
+    'VERSION' => '1',
+    'VERSION_LONG_TITLE' => '1.0.0 build 1',
+    /*
+    ============================================================================
+    1. Set theme
+       - trendy / modern -> Included By Default
+       - Add new theme style files in public > themes
+       - Add new pages in application > views
+    ============================================================================
+    */
+    'THEME' => 'trendy',
+    /*
+    ============================================================================
+    2. Set server URL
+       - No trailing slash
+       - The default code will display the root URL of project /public
+    ============================================================================
+    */
+    'URL' => 'https://' . $_SERVER['HTTP_HOST'] . str_replace('public', '', dirname($_SERVER['SCRIPT_NAME'])),
+    /*
+    ============================================================================
+    3. Set paths for your views / avatars / controller locations
+       - Change these if you move any of the working directories
+    ============================================================================
+    */
+    'PATH_CONTROLLER' => realpath(dirname(__FILE__).'/../../') . '/application/controller/',
+    'PATH_VIEW' => realpath(dirname(__FILE__).'/../../') . '/application/view/',
+    'PATH_AVATARS' => realpath(dirname(__FILE__).'/../../') . '/public/avatars/',
+    'PATH_AVATARS_PUBLIC' => 'avatars/',
+    'DEFAULT_CONTROLLER' => 'index',
+    'DEFAULT_ACTION' => 'index',
+    /*
+    ============================================================================
+    4. Database Settings
+       - If you change your database / migrate, update these details
+    ============================================================================
+    */
+    'DB_TYPE' => 'mysql',
+    'DB_HOST' => '{{ dbHost }}',
+    'DB_NAME' => '{{ dbName }}',
+    'DB_USER' => '{{ dbUser }}',
+    'DB_PASS' => '{{ dbPass }}',
+    'DB_PORT' => '{{ dbPort }}',
+    'DB_CHARSET' => 'utf8',
+    /*
+    ============================================================================
+    5. Cookie Settings
+    ============================================================================
+    */
+    'COOKIE_RUNTIME' => 1209600,
+    'COOKIE_PATH' => '/',
+    'COOKIE_DOMAIN' => ".". $_SERVER['HTTP_HOST'],
+    'COOKIE_SECURE' => true,
+    'COOKIE_HTTP' => true,
+    'SESSION_RUNTIME' => 604800,
+    /*
+    ============================================================================
+    6. Gravatar Settings
+    ============================================================================
+    */
+    'USE_GRAVATAR' => false,
+    'GRAVATAR_DEFAULT_IMAGESET' => 'mm',
+    'GRAVATAR_RATING' => 'pg',
+    'AVATAR_SIZE' => 200,
+    'AVATAR_JPEG_QUALITY' => 100,
+    'AVATAR_DEFAULT_IMAGE' => 'default.jpg',
+    /*
+    ============================================================================
+    7. Encryption Settings
+       - Don't change these if you don't know what you're doing
+    ============================================================================
+    */
+    'ENCRYPTION_KEY' => '6#x0gÊìf^25cL1f$08&',
+    'HMAC_SALT' => '8qk9c^4L6d#15tM8z7n0%',
+    /*
+    ============================================================================
+    8. Mail Provider
+       - mailgun / phpmailer currently supported
+       - Add your own in application > core > mail
+       - Update composer.json if you add any packages
+    ============================================================================
+    */
+    'EMAIL_USED_MAILER' => 'phpmailer',
+    /*
+    ============================================================================
+    9. SMTP Details
+    ============================================================================
+    */
+    'EMAIL_USE_SMTP' => true,
+    'EMAIL_SMTP_HOST' => '{{ smtpHost }}',
+    'EMAIL_SMTP_AUTH' => true,
+    'EMAIL_SMTP_USERNAME' => '{{ smtpEmail }}',
+    'EMAIL_SMTP_PASSWORD' => '{{ smtpPass }}',
+    'EMAIL_SMTP_PORT' => 465,
+    'EMAIL_SMTP_ENCRYPTION' => 'ssl',
+    /*
+    ============================================================================
+    10. Mailgun Details
+    ============================================================================
+    */
+    'EMAIL_MAILGUN_API' => '{{ mgAPI }}',
+    'EMAIL_MAILGUN_DOMAIN' => '{{ mgHost }}',
+    'EMAIL_MAILGUN_SERVER' => '{{ mgSer }}',
+    /*
+    ============================================================================
+    11. Email Content Settings
+    ============================================================================
+    */
+    'EMAIL_PASSWORD_RESET_URL' => 'login/verifypasswordreset',
+    'EMAIL_PASSWORD_RESET_FROM_EMAIL' => '{{ fromEmail }}',
+    'EMAIL_PASSWORD_RESET_FROM_NAME' => '{{ siteName }}',
+    'EMAIL_PASSWORD_RESET_SUBJECT' => 'Password reset for Cloud Console Management',
+    'EMAIL_PASSWORD_RESET_CONTENT' => 'Please click on this link to reset your password: ',
+    'EMAIL_VERIFICATION_URL' => 'register/verify',
+    'EMAIL_VERIFICATION_FROM_EMAIL' => '{{ fromEmail }}',
+    'EMAIL_VERIFICATION_FROM_NAME' => '{{ siteName }}',
+    'EMAIL_VERIFICATION_SUBJECT' => 'Account activation for Cloud Console Management',
+    'EMAIL_VERIFICATION_CONTENT' => 'Please click on this link to activate your account: ',
+
+
+    'REG_ENABLE' => 1,
+    'VERIFY_EMAIL' => 1,
+    'USER_TERMS_CONDITIONS_WORDING' => 'Start typing your terms and conditions here...',
+
+    "siteTitle"=>"{{ siteName }}",
+    "contactEmail"=>"{{ siteEmail }}",
+    "filePathDark" => "null",
+    "filePathLight" => "null",
+
+    "GOOGLE_ANALYTICS"=>"null",
+
+    "GOOGLE_ANALYTICS_CODE"=>"null",
+
+    "GOOGLE_META"=>"null",
+
+    "GOOGLE_META_TAG"=>"null",
+    "CUSTOM_HEADER"=>"null",
+
+    "CUSTOM_SCRIPT"=>"null",
+
+    "CUSTOM_SCRIPT_CONTENT"=>"null",
+
+    "CUSTOM_HEADER_CONTENT"=>"null",
+);

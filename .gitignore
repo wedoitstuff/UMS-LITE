@@ -1,0 +1,17 @@
+# this is just a demo .gitignore file, put all the files and folders you want to be ignored by git inside
+# if you work with NetBeans: ignore NetBeans project files
+nbproject/private/
+.vscode/
+.idea/
+# don't commit all the dependencies fetched via Composer
+vendor/
+
+application/config/backups/
+application/config/config.live.php
+public/uploads/
+!public/uploads/.htaccess
+!public/uploads/index.html
+public/avatars/
+!public/avatars/.htaccess
+!public/avatars/index.html
+.env
